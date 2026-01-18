@@ -51,3 +51,110 @@ button:hover::before {
 }
 
 /* end rules */
+
+/* start hero section */
+
+.hero .container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5%;
+    align-items: center;
+    background-color: #0A1226;
+    color: #FFFFFF;
+}
+
+/* start content section */
+
+.hero .container .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero .container .content .jobTitle {
+    color: #4E9BF9;
+    background-color: #0A1A39;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 50px;
+}
+
+.hero .container .content h1 {
+    font-size: 70px;
+}
+
+.hero .container .content h1 span {
+    color: #8C7BFF;
+}
+
+.hero .container .content .intro {
+    font-size: 25px;
+    color: #CAD5E2;
+    text-align: center;
+}
+
+/* end content section */
+
+/* start buttons */
+
+.hero .container .buttons ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.hero .container .buttons ul li a {
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 18px;
+    position: relative;
+}
+
+.hero .container .buttons ul li a::before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.15);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    transition: 0.3s;
+}
+
+.hero .container .buttons ul li a:hover::before {
+    z-index: 1;
+}
+
+.hero .container .buttons ul li .getInTouch {
+    background-color: #2B7FFF;
+}
+
+.hero .container .buttons ul li .viewWork {
+    background-color: #1D293D;
+}
+
+/* end buttons */
+
+/* start nav section */
+
+.hero .container .nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero .container .nav ul li a{
+    font-size: 20px;
+    color: #90A1B9;
+}
+
+/* end nav section */
+
+/* end hero section */
