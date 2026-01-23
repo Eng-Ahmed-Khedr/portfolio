@@ -155,6 +155,11 @@ button:hover::before {
 .hero .container .nav ul li a {
     font-size: 20px;
     color: #90A1B9;
+    transition: 0.3s;
+}
+
+.hero .container .nav ul li a:hover {
+    color: #FFFFFF;
 }
 
 /* end nav section */
@@ -169,7 +174,7 @@ button:hover::before {
     align-items: center;
     gap: 15%;
     height: 50vh;
-    margin-bottom: 600px;
+    margin-bottom: 650px;
 }
 
 .aboutMe .container h2 {
@@ -254,8 +259,13 @@ button:hover::before {
 
 /* start skills & technology section */
 
+.skills {
+    background-color: #0d1429;
+    height: 50vh;
+}
+
 .skills .container {
-    margin-bottom: 50px;
+    margin-bottom: 600px;
     display: flex;
     flex-direction: column;
 }
@@ -313,10 +323,126 @@ button:hover::before {
     color: #E0E6EE;
     font-size: 16px;
     background-color: #233045;
-    border: 1px solid#45556C;
+    border: 1px solid #45556C;
     border-radius: 15px;
 }
 
 /* end content */
 
 /* end skills & technology section */
+
+/* start featured projects section */
+
+.featuredProjects {
+    height: 50vh;
+    margin: 100px 0px;
+}
+
+.featuredProjects .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.featuredProjects .container h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.featuredProjects .container h2::before {
+    content: "";
+    width: 5%;
+    height: 10%;
+    background: #5A9EFF;
+    background: linear-gradient(90deg, rgba(90, 158, 255, 1) 0%, rgba(141, 124, 255, 1) 50%, rgba(172, 74, 255, 1) 100%);
+    position: absolute;
+    bottom: -20%;
+    left: 50%;
+    transform: translateX(-40%);
+}
+
+/* start content section */
+
+.featuredProjects .container .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.featuredProjects .container .content .card {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid #45556C;
+    border-radius: 15px;
+    max-width: 400px;
+    background-color: #121C30;
+    overflow: hidden;
+}
+
+.featuredProjects .container .content .card .img {
+    transition: 0.3s;
+}
+
+.featuredProjects .container .content .card:hover .img {
+    transform: scale(1.1) translateY(-5%);
+}
+
+.featuredProjects .container .content .card .cardContent {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.featuredProjects .container .content .card .cardContent h3 {
+    font-size: larger;
+}
+
+.featuredProjects .container .content .card .cardContent p {
+    color: #8B9CB4;
+    font-size: 16px;
+}
+
+.featuredProjects .container .content .card .cardContent .skillsUsed {
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    align-items: center;
+}
+
+.featuredProjects .container .content .card .cardContent .skillsUsed p {
+    color: #51A2FF;
+    padding: 10px;
+    background-color: #172948;
+    border: 1px solid transparent;
+    border-radius: 15px;
+}
+
+.featuredProjects .container .content .card .cardContent .nav ul {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+.featuredProjects .container .content .card .cardContent .nav ul li a {
+    font-size: 16px;
+    color: #90A1B9;
+    transition: 0.3s;
+    display: flex;
+    gap: 10px;
+}
+
+.featuredProjects .container .content .card .cardContent .nav ul li a:hover {
+    color: #FFFFFF;
+}
+
+/* end content section */
+
+/* end featured projects section */
