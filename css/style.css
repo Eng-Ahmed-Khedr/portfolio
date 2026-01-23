@@ -251,3 +251,72 @@ button:hover::before {
 /* end cards section */
 
 /* end about me section */
+
+/* start skills & technology section */
+
+.skills .container {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.skills .container h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.skills .container h2::before {
+    content: "";
+    width: 5%;
+    height: 10%;
+    background: #5A9EFF;
+    background: linear-gradient(90deg, rgba(90, 158, 255, 1) 0%, rgba(141, 124, 255, 1) 50%, rgba(172, 74, 255, 1) 100%);
+    position: absolute;
+    bottom: -20%;
+    left: 50%;
+    transform: translateX(-40%);
+}
+
+/* start content */
+
+.skills .container .content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.skills .container .content .card {
+    background-color: #141E33;
+    padding: 30px;
+    max-width: 400px;
+    max-height: 300px;
+    border: 1px solid #314158;
+    border-radius: 15px;
+}
+
+.skills .container .content .card h3 {
+    margin: 20px 0;
+}
+
+.skills .container .content .card .skill {
+    color: #D9DFE9;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills .container .content .card p {
+    padding: 20px;
+    color: #E0E6EE;
+    font-size: 16px;
+    background-color: #233045;
+    border: 1px solid#45556C;
+    border-radius: 15px;
+}
+
+/* end content */
+
+/* end skills & technology section */
