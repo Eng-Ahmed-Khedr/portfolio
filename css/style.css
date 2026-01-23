@@ -446,3 +446,148 @@ button:hover::before {
 /* end content section */
 
 /* end featured projects section */
+
+/* start Get In Touch section */
+
+.getInTouch .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    height: 80vh;
+}
+
+.getInTouch .container h2 {
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+}
+
+.getInTouch .container h2::before {
+    content: "";
+    width: 40%;
+    height: 10%;
+    background: #5A9EFF;
+    background: linear-gradient(90deg, rgba(90, 158, 255, 1) 0%, rgba(141, 124, 255, 1) 50%, rgba(172, 74, 255, 1) 100%);
+    position: absolute;
+    bottom: -20%;
+    left: 50%;
+    transform: translateX(-40%);
+}
+
+.getInTouch .container p {
+    color: #CAD5E2;
+    text-align: center;
+}
+
+.getInTouch .container .content {
+    display: flex;
+    align-items:flex-start;
+    justify-content:start;
+    gap: 300px;
+}
+
+.getInTouch .container .content .column h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.getInTouch .container .content .column h4 {
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.getInTouch .container .content .column .nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.getInTouch .container .content .column .nav ul li {
+    font-size: 20px;
+    color: #90A1B9;
+    transition: 0.3s;
+    display: flex;
+}
+
+.getInTouch .container .content .column .nav ul li .icon {
+    font-size: 30px;
+    padding: 10px;
+    background-color: #112141;
+    color: #50A2FF;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+.getInTouch .container .content .column .nav ul li a {
+    transition: 0.3s;
+}
+
+.getInTouch .container .content .column .nav ul li a:hover {
+    color: #50A2FF;
+}
+
+/* start form section */
+
+.getInTouch .container .content form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    width: 45%;
+}
+
+.getInTouch .container .content form input {
+    background-color: #1D293D;
+    border: 1px solid #314158;
+    border-radius: 15px;
+    width: 400px;
+    height: 50px;
+    padding-left: 20px;
+    color: #62748E;
+}
+
+.getInTouch .container .content form input {
+    background-color: #1D293D;
+    border: 1px solid #314158;
+    border-radius: 15px;
+    width: 400px;
+    height: 50px;
+    padding-left: 20px;
+}
+
+.getInTouch .container .content form input::placeholder {
+    color: #59748E;
+}
+
+.getInTouch .container .content form textarea {
+    background-color: #1D293D;
+    border: 1px solid #314158;
+    border-radius: 15px;
+    width: 400px;
+    height: 150px;
+    padding:20px 0px 0px 20px;
+    color: #FFFFFF;
+}
+
+.getInTouch .container .content form textarea::placeholder {
+    color: #59748E;
+}
+
+.getInTouch .container .content form button {
+    background-color: #2B7FFF;
+    color: #FFFFFF;
+    width: 400px;
+    height: 60px;
+    font-size: 20px;
+    outline: none;
+    border-radius: 15px;
+}
+
+/* end form section */
+
+/* end Get In Touch section */

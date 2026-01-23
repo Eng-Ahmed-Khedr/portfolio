@@ -258,32 +258,40 @@
                     <div class="nav">
                         <ul>
                             <li>
-                                <a href="mailto:ahmed-ayman-khedr@hotmail.com">
+                                <div class="icon">
                                     <i class="fa-regular fa-envelope"></i>
+                                </div>
+                                <div class="linkContent">
                                     <h4>Email</h4>
-                                    <p>ahmed-ayman-khedr@hotmail.com</p>
-                                </a>
+                                    <a href="mailto:ahmed-ayman-khedr@hotmail.com">ahmed-ayman-khedr@hotmail.com</a>
+                                </div>
                             </li>
                             <li>
-                                <i class="fa-solid fa-location-dot"></i>
-                                <h4>Location</h4>
-                                <p>Egypt</p>
+                                <div class="icon">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                                <div class="linkContent">
+                                    <h4>Location</h4>
+                                    <p>Egypt</p>
+                                </div>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <form action="#" class="column">
-                    <label for="name">Name</label>
-                    <input type="text" name="name" id="name" placeholder="Your Name">
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email" placeholder="your.email@example.com">
-                    <label for="message">Message</label>
-                    <input type="text" name="message" id="message" placeholder="Tell me about your project...">
-                    <button type="submit">
-                        <i class="fa-solid fa-location-arrow"></i>
-                        Send Message
-                    </button>
-                </form>
+                <div class="column">
+                    <form action="#">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Your Name">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="your.email@example.com">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" placeholder="Tell me about your project..."></textarea>
+                        <button type="submit">
+                            <i class="fa-solid fa-location-arrow"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
