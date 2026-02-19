@@ -63,6 +63,7 @@ button:hover::before {
     justify-content: center;
     gap: 5%;
     align-items: center;
+    position: relative;
 }
 
 /* start content section */
@@ -163,6 +164,35 @@ button:hover::before {
 }
 
 /* end nav section */
+
+/* start arrowAnimated section */
+
+.hero .container .arrowanimated {
+    font-size: 40px;
+    position: absolute;
+    bottom: 10%;
+    animation-name: arrowAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+/* Animation */
+
+@keyframes arrowAnimation {
+    0% {
+        bottom: 0%;
+    }
+
+    50% {
+        bottom: 10%;
+    }
+
+    100% {
+        bottom: 0%;
+    }
+}
+
+/* end arrowAnimated section */
 
 /* end hero section */
 
