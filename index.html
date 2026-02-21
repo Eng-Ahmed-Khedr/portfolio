@@ -3,101 +3,312 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="auther" content="Eng. Ahmed Ayman Khedr">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link href="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.css" rel="stylesheet" />
+    <meta name="auther" content="Eng Ahmed Ayman Khedr">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="shortcut icon" href="./photos/Logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./photos/hand-peace-solid-full.svg" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Eng. Ahmed Khedr</title>
+    <title>Portfolio</title>
 </head>
 
 <body>
-
-    <!-- start navbar section -->
-
-    <nav class="bg-[#909090] text-white fixed w-full z-20 top-0 start-0 border-b border-default">
-        <div class="max-w-7xl flex flex-wrap items-center justify-between mx-auto p-4">
-            <a href="./index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
-                <img src="./photos/Logo.png" class="h-7" alt="Logo" />
-                <span class="self-center text-xl text-heading font-semibold whitespace-nowrap"><span
-                        class="text-[#012E64]">A</span>hmed <span class="text-[#C8A02D]">K</span>hedr</span>
-            </a>
-            <button data-collapse-toggle="navbar-default" type="button"
-                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-body rounded-base md:hidden hover:bg-neutral-secondary-soft hover:text-heading focus:outline-none focus:ring-2 focus:ring-neutral-tertiary"
-                aria-controls="navbar-default" aria-expanded="false">
-                <span class="sr-only">Open main menu</span>
-                <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                    fill="none" viewBox="0 0 24 24">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14" />
-                </svg>
-            </button>
-            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-                <ul
-                    class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-default rounded-base bg-neutral-secondary-soft md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-neutral-primary">
-                    <li>
-                        <a href="#"
-                            class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">About
-                            me</a>
-                    </li>
-                    <li>
-                        <a href="#"
-                            class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Skills</a>
-                    </li>
-                    <li>
-                        <a href="#"
-                            class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="#"
-                            class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">CONTACT
-                            ME</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <!-- end navbar section -->
-
     <!-- start hero section -->
-
-    <section class="hero bg-[#D7D7D7] relative overflow-hidden">
-        <div class="background bg-black absolute inset-0 z-1 translate-x-330 translate-y-50 scale-150 rotate-15">
-        </div>
-        <div class=" container flex items-center justify-around mx-auto h-screen">
-            <div class="info text-start">
-                <p class="my-6 font-bold text-[40px] text-black">Hi, I am</p>
-                <h1 class="font-bold text-[80px] text-black">Eng. Ahmed Khedr</h1>
-                <p class="text-[#909090] font-extrabold text-[25px] mb-25">Front-end Developer</p>
-                <ul class="flex gap-3">
-                    <li class="bg-[#C4C4C4] p-1 text-2xl text-black shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]">
-                        <a href="#"><i class="fa-solid fa-at"></i></a>
+    <div class="hero">
+        <div class="container">
+            <div class="content">
+                <p class="jobTitle">Frontend Developer</p>
+                <h1>Hi, I'm <span>Ahmed Ayman Khedr</span></h1>
+                <p class="intro">I craft beautiful, responsive web experiences with modern <br>technologies and clean
+                    code</p>
+            </div>
+            <div class="buttons">
+                <ul>
+                    <li><a href="#getInTouch" class="getInTouch">Get In Touch</a></li>
+                    <li><a href="#viewWork" class="viewWork">View Work</a></li>
+                </ul>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li>
+                        <a href="https://github.com/Developer-Ahmed-Ayman-khedr" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
                     </li>
-                    <li class="bg-[#C4C4C4] p-1 text-2xl text-black shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
-                        <a href="https://github.com/Developer-Ahmed-Ayman-khedr"><i class="fa-brands fa-github"></i></a>
+                    <li>
+                        <a href="https://www.linkedin.com/in/ahmed-ayman-khedr-0ba088266/" target="_blank">
+                            <i class="fa-brands fa-linkedin-in">
+                            </i>
+                        </a>
                     </li>
-                    <li class="bg-[#C4C4C4] p-1 text-2xl text-black shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
-                        <a href="https://www.linkedin.com/in/ahmed-khedr-0ba088266/"><i
-                                class="fa-brands fa-square-linkedin"></i></a>
+                    <li>
+                        <a href="mailto:ahmed-ayman-khedr@hotmail.com">
+                            <i class="fa-regular fa-envelope"></i>
+                            </i>
+                        </a>
                     </li>
                 </ul>
             </div>
-            <div class="img bg-none">
-                <img class="relative inline-block mt-65 w-150 h-160 bg-none z-2"
-                    src="./photos/portrait-no-background.png" alt="portrait">
+            <div class="arrowanimated">
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+        </div>
+    </div>
+    <!-- end hero section -->
+
+    <!-- start about me section -->
+
+    <section class="aboutMe">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="content">
+                <div class="img"><img src="./photos/aboutMe.png" alt=""></div>
+                <p>I'm a passionate frontend developer with 5+ years of experience building <br>modern web applications.
+                    I love turning complex problems into simple,<br> beautiful, and intuitive designs.
+                    <br>
+                    <br>
+                    When I'm not coding, you'll find me exploring new technologies, contributing <br>to open source
+                    projects, or sharing knowledge with the developer community.<br>
+                    <br>
+                    I believe in writing code that not only works but is also clean, maintainable, <br>and follows best
+                    practices.
+                </p>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <div class="icon">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <h3>Clean Code</h3>
+                    <p>Writing maintainable, scalable, and well-documented code</p>
+                </div>
+                <div class="card">
+                    <div class="icon">
+                        <i class="fa-solid fa-palette"></i>
+                    </div>
+                    <h3>Pixel Perfect</h3>
+                    <p>Translating designs into flawless user interfaces</p>
+                </div>
+                <div class="card">
+                    <div class="icon">
+                        <i class="fa-solid fa-bolt"></i>
+                    </div>
+                    <h3>Performance</h3>
+                    <p>Optimizing for speed and seamless user experiences</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- end hero section -->
+    <!-- end about me section -->
 
-    <!-- Flowbyte js link -->
-    <script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
+    <!-- start skills & technology section -->
 
+    <section class="skills">
+        <div class="container">
+            <h2>Skills & Technologies</h2>
+            <div class="content">
+                <div class="card">
+                    <h3>Frontend</h3>
+                    <div class="skill">
+                        <p>React JS</p>
+                        <p>TypeScript</p>
+                        <p>Next.js</p>
+                        <p>Tailwind CSS</p>
+                        <p>HTML/CSS</p>
+                        <p>JavaScript</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Tools & Others</h3>
+                    <div class="skill">
+                        <p>Git</p>
+                        <p>Figma</p>
+                        <p>REST APIs</p>
+                        <p>SQL</p>
+                        <p>GraphQL</p>
+                        <p>Vercel</p>
+                        <p>Docker</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Currently Learning</h3>
+                    <div class="skill">
+                        <p>Node.js</p>
+                        <p>MongoDB + Mongoose</p>
+                        <p>JWT Authentication</p>
+                        <p>Web Servers</p>
+                        <p>Express.js Framework</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end skills & technology section -->
+
+    <!-- start featured projects section -->
+
+    <section class="featuredProjects">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="content">
+                <div class="card">
+                    <div class="img"><img src="./photos/featuredProjects/image1.png" alt=""></div>
+                    <div class="cardContent">
+                        <h3>First Project</h3>
+                        <p>A beautiful portfolio to showcase my craftsmanship.</p>
+                        <div class="skillsUsed">
+                            <p>HTML</p>
+                            <p>CSS</p>
+                        </div>
+                        <div class="nav">
+                            <ul>
+                                <li>
+                                    <a href="https://github.com/Developer-Ahmed-Ayman-khedr/ahmedKhedr.github.io/tree/master/first"
+                                        target="_blank">
+                                        <i class="fa-brands fa-github"></i>
+                                        <p>Code</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://developer-ahmed-ayman-khedr.github.io/ahmedKhedr.github.io/first/index.html"
+                                        target="_blank">
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        <p>Live Demo</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img"><img src="./photos/featuredProjects/image2.png" alt=""></div>
+                    <div class="cardContent">
+                        <h3>Treloo</h3>
+                        <p>A full-featured travel agency landing page.</p>
+                        <div class="skillsUsed">
+                            <p>HTML</p>
+                            <p>CSS</p>
+                        </div>
+                        <div class="nav">
+                            <ul>
+                                <li>
+                                    <a href="https://github.com/Developer-Ahmed-Ayman-khedr/ahmedKhedr.github.io/tree/master/treloo"
+                                        target="_blank">
+                                        <i class="fa-brands fa-github"></i>
+                                        <p>Code</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://developer-ahmed-ayman-khedr.github.io/ahmedKhedr.github.io/treloo/index.html"
+                                        target="_blank">
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        <p>Live Demo</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img"><img src="./photos/featuredProjects/image3.png" alt=""></div>
+                    <div class="cardContent">
+                        <h3>Watch Shop</h3>
+                        <p>A full-featured watch shop landing page.</p>
+                        <div class="skillsUsed">
+                            <p>HTML</p>
+                            <p>CSS</p>
+                        </div>
+                        <div class="nav">
+                            <ul>
+                                <li>
+                                    <a href="https://github.com/Developer-Ahmed-Ayman-khedr/ahmedKhedr.github.io/tree/master/watch-shop"
+                                        target="_blank">
+                                        <i class="fa-brands fa-github"></i>
+                                        <p>Code</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://developer-ahmed-ayman-khedr.github.io/ahmedKhedr.github.io/watch-shop/index.html"
+                                        target="_blank">
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        <p>Live Demo</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end featured projects section -->
+
+    <!-- start Get In Touch section -->
+
+    <section class="getInTouch">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your
+                <br>vision.
+            </p>
+            <div class="content">
+                <div class="column">
+                    <h3>Let's talk</h3>
+                    <div class="nav">
+                        <ul>
+                            <li>
+                                <div class="icon">
+                                    <i class="fa-regular fa-envelope"></i>
+                                </div>
+                                <div class="linkContent">
+                                    <h4>Email</h4>
+                                    <a href="mailto:ahmed-ayman-khedr@hotmail.com">ahmed-ayman-khedr@hotmail.com</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                                <div class="linkContent">
+                                    <h4>Location</h4>
+                                    <p>Egypt</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="column">
+                    <form action="#">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Your Name">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="your.email@example.com">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" placeholder="Tell me about your project..."></textarea>
+                        <button type="submit">
+                            <i class="fa-solid fa-location-arrow"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end Get In Touch section -->
+
+    <!-- start footer section -->
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Ahmed Ayman Khedr. Built with HTML & CSS.</p>
+        </div>
+    </footer>
+    <!-- end footer section -->
 </body>
 
 </html>
