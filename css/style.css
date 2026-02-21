@@ -1,0 +1,15 @@
+/* start global rules */
+
+@import "tailwindcss";
+
+@font-face {
+    font-family: "Raleway";
+    src: url(../fonts/Raleway-Medium.ttf) format("ttf");
+    font-style: normal;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+/* end global rules */
