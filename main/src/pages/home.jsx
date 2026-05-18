@@ -75,7 +75,7 @@ export default function Home() {
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-20">
                         <div className="rounded-2xl overflow-hidden h-112.5 bg-[#151F33] shadow-xl border border-[#314158]/30">
-                            <img src="./src/assets/aboutMe.png" alt="About Me Portfolio Artwork" className="w-full h-full object-cover" />
+                            <img src="../src/assets/aboutMe.png" alt="About Me Portfolio Artwork" className="w-full h-full object-cover" />
                         </div>
                         <div className="text-[#CAD5D7] text-lg space-y-6 leading-relaxed font-medium">
                             <p>
@@ -185,7 +185,7 @@ export default function Home() {
                                 tags: ["React.js", "Next.js", "Tailwind CSS", "Flowbite React"],
                                 code: "https://github.com/Eng-Ahmed-Khedr/SOUQLINK/tree/master/souqlink",
                                 live: "https://souqlink.vercel.app/",
-                                img: "./src/assets/souqlink.png"
+                                img: "../src/assets/souqlink.png"
                             },
                             {
                                 title: "classyAds",
@@ -193,7 +193,7 @@ export default function Home() {
                                 tags: ["React.js", "TypeScript", "Tailwind CSS"],
                                 code: "https://github.com/Eng-Ahmed-Khedr/ahmedKhedr.github.io/tree/master/Classy-Ads",
                                 live: "https://eng-ahmed-khedr.github.io/ahmedKhedr.github.io/Classy-Ads/index.html",
-                                img: "./src/assets/classyAds.png"
+                                img: "../src/assets/classyAds.png"
                             },
                             {
                                 title: "Watch Shop",
@@ -201,7 +201,7 @@ export default function Home() {
                                 tags: ["HTML", "CSS", "JavaScript"],
                                 code: "https://github.com/Eng-Ahmed-Khedr/ahmedKhedr.github.io/tree/master/watch-shop",
                                 live: "https://github.com/Eng-Ahmed-Khedr/ahmedKhedr.github.io/tree/master/watch-shop",
-                                img: "./src/assets/WatchShop.png"
+                                img: "../src/assets/WatchShop.png"
                             }
                         ].map((proj, idx) => (
                             <div key={idx} className="bg-[#121C30] rounded-2xl border border-[#45556C]/60 overflow-hidden group flex flex-col shadow-lg transition-all duration-300 hover:-translate-y-1 hover:border-[#51A2FF]/50">
