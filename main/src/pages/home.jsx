@@ -25,7 +25,7 @@ export default function Home() {
                         Frontend Developer
                     </Badge>
                     <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-white">
-                        Hi, I'm <span className="bg-linear-to-r from-[#5A9EFF] via-[#8D7CFF] to-[#AC4AFF] bg-clip-text text-transparent">Ahmed Ayman Khedr</span>
+                        Hi, I'm <span className="bg-linear-to-r from-[#5A9EFF] via-[#8D7CFF] to-[#AC4AFF] bg-clip-text text-transparent">Ahmed Khedr</span>
                     </h1>
                     <p className="text-lg md:text-2xl text-[#CAD5E2] max-w-2xl mx-auto leading-relaxed font-medium">
                         I craft beautiful, responsive web experiences with modern technologies and clean code
