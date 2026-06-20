@@ -205,7 +205,7 @@ export default function Home() {
                                 desc: "A full-featured watch shop landing page showcasing luxury timepieces with pixel-perfect layout execution.",
                                 tags: ["HTML", "CSS", "JavaScript"],
                                 code: "https://github.com/Eng-Ahmed-Khedr/ahmedKhedr.github.io/tree/master/watch-shop",
-                                live: "https://github.com/Eng-Ahmed-Khedr/ahmedKhedr.github.io/tree/master/watch-shop",
+                                live: "https://eng-ahmed-khedr.github.io/ahmedKhedr.github.io/watch-shop/index.html",
                                 img: watchShopImg
                             }
                         ].map((proj, idx) => (
